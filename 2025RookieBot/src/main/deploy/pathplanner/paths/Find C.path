@@ -1,0 +1,66 @@
+{
+  "version": "2025.0",
+  "waypoints": [
+    {
+      "anchor": {
+        "x": 14.274400684931507,
+        "y": 5.392337328767123
+      },
+      "prevControl": null,
+      "nextControl": {
+        "x": 14.110424411282928,
+        "y": 4.850192192069604
+      },
+      "isLocked": false,
+      "linkedName": null
+    },
+    {
+      "anchor": {
+        "x": 14.139169520547945,
+        "y": 4.926541095890411
+      },
+      "prevControl": {
+        "x": 14.309939369587559,
+        "y": 5.5263570172996745
+      },
+      "nextControl": null,
+      "isLocked": false,
+      "linkedName": "TautoC"
+    }
+  ],
+  "rotationTargets": [],
+  "constraintZones": [],
+  "pointTowardsZones": [],
+  "eventMarkers": [
+    {
+      "name": "Uppies",
+      "waypointRelativePos": 0.01,
+      "endWaypointRelativePos": null,
+      "command": {
+        "type": "named",
+        "data": {
+          "name": "Next"
+        }
+      }
+    }
+  ],
+  "globalConstraints": {
+    "maxVelocity": 2.5,
+    "maxAcceleration": 2.0,
+    "maxAngularVelocity": 540.0,
+    "maxAngularAcceleration": 720.0,
+    "nominalVoltage": 12.0,
+    "unlimited": false
+  },
+  "goalEndState": {
+    "velocity": 0,
+    "rotation": -119.99999999999999
+  },
+  "reversed": false,
+  "folder": "Approch Paths",
+  "idealStartingState": {
+    "velocity": 0.5,
+    "rotation": -119.99999999999999
+  },
+  "useDefaultConstraints": false
+}

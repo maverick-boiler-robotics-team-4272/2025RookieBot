@@ -1,0 +1,71 @@
+{
+  "version": "2025.0",
+  "waypoints": [
+    {
+      "anchor": {
+        "x": 10.412799657534247,
+        "y": 6.143621575342466
+      },
+      "prevControl": null,
+      "nextControl": {
+        "x": 13.157711227852154,
+        "y": 5.293272796041313
+      },
+      "isLocked": false,
+      "linkedName": null
+    },
+    {
+      "anchor": {
+        "x": 12.77204861111111,
+        "y": 5.394618055555555
+      },
+      "prevControl": {
+        "x": 12.3865303306755,
+        "y": 5.4954097908449695
+      },
+      "nextControl": null,
+      "isLocked": false,
+      "linkedName": "TautoE"
+    }
+  ],
+  "rotationTargets": [
+    {
+      "waypointRelativePos": 0.49792531120332145,
+      "rotationDegrees": -59.99999999999999
+    }
+  ],
+  "constraintZones": [],
+  "pointTowardsZones": [],
+  "eventMarkers": [
+    {
+      "name": "Go to L4",
+      "waypointRelativePos": 0.5,
+      "endWaypointRelativePos": null,
+      "command": {
+        "type": "named",
+        "data": {
+          "name": "Go to L4"
+        }
+      }
+    }
+  ],
+  "globalConstraints": {
+    "maxVelocity": 4.5,
+    "maxAcceleration": 3.5,
+    "maxAngularVelocity": 540.0,
+    "maxAngularAcceleration": 720.0,
+    "nominalVoltage": 12.0,
+    "unlimited": false
+  },
+  "goalEndState": {
+    "velocity": 0,
+    "rotation": -60.068488159492176
+  },
+  "reversed": false,
+  "folder": "Auto paths",
+  "idealStartingState": {
+    "velocity": 0,
+    "rotation": 0.0
+  },
+  "useDefaultConstraints": true
+}

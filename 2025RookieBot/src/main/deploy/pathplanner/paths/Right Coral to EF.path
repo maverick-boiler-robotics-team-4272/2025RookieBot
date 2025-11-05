@@ -1,0 +1,66 @@
+{
+  "version": "2025.0",
+  "waypoints": [
+    {
+      "anchor": {
+        "x": 1.277,
+        "y": 1.0
+      },
+      "prevControl": null,
+      "nextControl": {
+        "x": 2.179625563863554,
+        "y": 1.3675783166459952
+      },
+      "isLocked": false,
+      "linkedName": "Right Coral Station"
+    },
+    {
+      "anchor": {
+        "x": 5.448784722222221,
+        "y": 2.38984375
+      },
+      "prevControl": {
+        "x": 4.50553031320966,
+        "y": 1.9834811060545352
+      },
+      "nextControl": null,
+      "isLocked": false,
+      "linkedName": "Reef EF"
+    }
+  ],
+  "rotationTargets": [
+    {
+      "waypointRelativePos": 0.7695390781563128,
+      "rotationDegrees": 119.99999999999999
+    }
+  ],
+  "constraintZones": [],
+  "pointTowardsZones": [],
+  "eventMarkers": [
+    {
+      "name": "Drop",
+      "waypointRelativePos": 1.0,
+      "endWaypointRelativePos": null,
+      "command": null
+    }
+  ],
+  "globalConstraints": {
+    "maxVelocity": 4.5,
+    "maxAcceleration": 3.5,
+    "maxAngularVelocity": 540.0,
+    "maxAngularAcceleration": 720.0,
+    "nominalVoltage": 12.0,
+    "unlimited": false
+  },
+  "goalEndState": {
+    "velocity": 0,
+    "rotation": 119.3100070709161
+  },
+  "reversed": false,
+  "folder": "Right Coral to Reef",
+  "idealStartingState": {
+    "velocity": 0,
+    "rotation": 52.84193852320712
+  },
+  "useDefaultConstraints": true
+}

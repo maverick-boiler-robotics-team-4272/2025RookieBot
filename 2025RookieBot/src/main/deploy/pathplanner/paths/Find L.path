@@ -1,0 +1,66 @@
+{
+  "version": "2025.0",
+  "waypoints": [
+    {
+      "anchor": {
+        "x": 13.958861301369863,
+        "y": 2.5374571917808213
+      },
+      "prevControl": null,
+      "nextControl": {
+        "x": 13.863693867063361,
+        "y": 2.7686349576829894
+      },
+      "isLocked": false,
+      "linkedName": "Coral_KL"
+    },
+    {
+      "anchor": {
+        "x": 13.655087877555435,
+        "y": 2.800113889322862
+      },
+      "prevControl": {
+        "x": 13.722917928642083,
+        "y": 2.559491604050731
+      },
+      "nextControl": null,
+      "isLocked": false,
+      "linkedName": null
+    }
+  ],
+  "rotationTargets": [],
+  "constraintZones": [],
+  "pointTowardsZones": [],
+  "eventMarkers": [
+    {
+      "name": "Uppies",
+      "waypointRelativePos": 0.009523809523809525,
+      "endWaypointRelativePos": null,
+      "command": {
+        "type": "named",
+        "data": {
+          "name": "Next"
+        }
+      }
+    }
+  ],
+  "globalConstraints": {
+    "maxVelocity": 2.5,
+    "maxAcceleration": 2.0,
+    "maxAngularVelocity": 540.0,
+    "maxAngularAcceleration": 720.0,
+    "nominalVoltage": 12.0,
+    "unlimited": false
+  },
+  "goalEndState": {
+    "velocity": 0,
+    "rotation": 119.99999999999999
+  },
+  "reversed": false,
+  "folder": "Approch Paths",
+  "idealStartingState": {
+    "velocity": 0.5,
+    "rotation": 119.99999999999999
+  },
+  "useDefaultConstraints": false
+}
