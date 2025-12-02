@@ -18,7 +18,7 @@ public class Vortex extends SparkFlex implements Loggable {
         public double volts;
     }
 
-    VortexInputsAutoLogged inputs = new VortexInputsAutoLogged();
+    // VortexInputsAutoLogged inputs = new VortexInputsAutoLogged();
 
     public Vortex(int id) {
         super(id, MotorType.kBrushless);
@@ -37,11 +37,11 @@ public class Vortex extends SparkFlex implements Loggable {
     }
 
     public void log(String subdirectory, String humanReadableName) {
-        inputs.current = getOutputCurrent();
-        inputs.rotations = getEncoder().getPosition();
-        inputs.temperature = getMotorTemperature();
-        inputs.volts = getBusVoltage();
+        // inputs.current = getOutputCurrent();
+        // inputs.rotations = getEncoder().getPosition();
+        // inputs.temperature = getMotorTemperature();
+        // inputs.volts = getBusVoltage();
 
-        Logger.processInputs(subdirectory + "/" + humanReadableName, inputs);
+        // Logger.processInputs(subdirectory + "/" + humanReadableName, inputs);
     }
 }

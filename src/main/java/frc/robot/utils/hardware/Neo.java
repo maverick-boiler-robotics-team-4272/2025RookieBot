@@ -18,7 +18,7 @@ public class Neo extends SparkMax implements Loggable {
         public double volts;
     }
 
-    private NeoInputsAutoLogged inputs = new NeoInputsAutoLogged();
+    // private NeoInputsAutoLogged inputs = new NeoInputsAutoLogged();
 
     public Neo(int id) {
         super(id, MotorType.kBrushless);
@@ -38,6 +38,6 @@ public class Neo extends SparkMax implements Loggable {
 
     @Override
     public void log(String subdirectory, String humanReadableName) {
-        Logger.processInputs(subdirectory + "/" + humanReadableName, inputs);
+        // Logger.processInputs(subdirectory + "/" + humanReadableName, inputs);
     }
 }

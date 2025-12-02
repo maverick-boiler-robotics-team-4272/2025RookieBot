@@ -64,7 +64,7 @@ public class CommandSwerveDrivetrain extends TunerSwerveDrivetrain implements Su
     }
 
     // Logging inputs
-    private DrivetrainInputsAutoLogged inputs = new DrivetrainInputsAutoLogged();
+    private DrivetrainInputs inputs = new DrivetrainInputs();
 
     /**
      * Initializes the inputs for logging
@@ -412,7 +412,7 @@ public class CommandSwerveDrivetrain extends TunerSwerveDrivetrain implements Su
      */
     @Override
     public void log(String subdirectory, String humanReadableName) {
-        Logger.processInputs(subdirectory + "/" + humanReadableName, inputs);
+        // Logger.processInputs(subdirectory + "/" + humanReadableName, inputs);
     }
 
     /**

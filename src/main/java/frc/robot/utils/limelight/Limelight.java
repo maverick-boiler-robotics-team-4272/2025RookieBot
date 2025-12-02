@@ -20,7 +20,7 @@ public class Limelight implements Periodical, Loggable {
         double tagDist;
     }
 
-    LimelightInputsAutoLogged inputs = new LimelightInputsAutoLogged();
+    LimelightInputs inputs = new LimelightInputs();
 
     private String tableName;
     
@@ -94,6 +94,6 @@ public class Limelight implements Periodical, Loggable {
 
     @Override
     public void log(String subdirectory, String humanReadableName) {
-        Logger.processInputs(subdirectory + "/" + humanReadableName, inputs);
+        // Logger.processInputs(subdirectory + "/" + humanReadableName, inputs);
     }
 }
